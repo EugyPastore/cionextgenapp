@@ -10,3 +10,15 @@ function apicall() {
         document.getElementById("text").innerHTML = "failed"
     });
 }
+function apicall2() {
+    $.ajax({
+        url: "https://cionextgenapi.azure-api.net/specificinfo/HttpTrigger2",
+        headers: { "Ocp-Apim-Subscription-Key": "3be26df1b0244eed86d86b58bd3b9360"},
+        contentType: "application/json",
+        type: "GET"
+    }).done(function (data) {
+        document.getElementById("Short_Description").value = data;
+    }).error(function () {
+        document.getElementById("text").innerHTML = "failed"
+    });
+}

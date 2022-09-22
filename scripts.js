@@ -17,7 +17,7 @@ function apicall2() {
         contentType: "application/json",
         type: "GET"
     }).done(function (data) {
-        document.getElementById("Short_Description").value = data;
+        document.getElementById("text").innerHTML = data;
     }).error(function () {
         document.getElementById("text").innerHTML = "failed"
     });

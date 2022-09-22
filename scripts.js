@@ -7,7 +7,7 @@ function apicall() {
     }).done(function (data) {
         document.getElementById("text").innerHTML = data;
     }).error(function () {
-        document.getElementById("text").innerHTML = "failed"
+        document.getElementById("text").innerHTML = "failed";
     });
 }
 function apicall2() {
@@ -19,6 +19,6 @@ function apicall2() {
     }).done(function (data) {
         document.getElementById("text").innerHTML = data;
     }).error(function () {
-        document.getElementById("text").innerHTML = "failed"
+        document.getElementById("text").innerHTML = "failed";
     });
 }

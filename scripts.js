@@ -6,8 +6,6 @@ function apicall() {
         type: "GET"
     }).done(function (data) {
         document.getElementById("text").innerHTML = data;
-    }).error(function () {
-        document.getElementById("text").innerHTML = "failed";
     });
 }
 function apicall2() {
@@ -18,7 +16,5 @@ function apicall2() {
         type: "GET"
     }).done(function (data) {
         document.getElementById("text").innerHTML = data;
-    }).error(function () {
-        document.getElementById("text").innerHTML = "failed";
     });
 }

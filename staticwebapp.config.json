@@ -3,6 +3,10 @@
     {
       "route": "/*",
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/.auth/login/aadb2c",
+      "allowedRoles": ["anonymous"]
     }
   ],
   "responseOverrides": {

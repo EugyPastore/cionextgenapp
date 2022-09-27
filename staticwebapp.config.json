@@ -15,9 +15,6 @@
       "redirect": "/.auth/login/aadb2c"
     }
   },
-  "navigationFallback": {
-    "rewrite": "/"
-  },
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
